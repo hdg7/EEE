@@ -1,5 +1,7 @@
 #UPX
 
+This vresion works in CentOS 6.5, we do not provide support to any different platform.
+
 This part of the project contains the code of the different versions of UPx packer.
 
 To compile it you can just do it, but the stub is independent, to compile the stub you need the build tools.
