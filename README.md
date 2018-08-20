@@ -1,6 +1,6 @@
 #UPX
 
-This vresion works in CentOS 6.5, we do not provide support to any different platform.
+This version works in CentOS 6.5, we do not provide support to any different platform.
 
 This part of the project contains the code of the different versions of UPx packer.
 
