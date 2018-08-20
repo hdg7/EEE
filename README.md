@@ -1,5 +1,11 @@
 #UPX
 
+This version works in CentOS 6.5 and Debian 9, we do not provide support to any different platform.
+
+First install UCL from:
+
+http://www.oberhumer.com/opensource/ucl/download/
+
 This part of the project contains the code of the different versions of UPx packer.
 
 To compile it you can just do it, but the stub is independent, to compile the stub you need the build tools.
@@ -17,5 +23,10 @@ If you find problems compiling the stub, like Bad ELF interpreter, you need to i
 ```
 sudo yum install glibc
 sudo yum install glibc.i686
+```
+In Debian 9:
+```
+apt-get install libc6
+apt-get install libc6.i386
 ```
 To reduce space I eliminated some compiled files from the stub, so you need to recompile it. 
