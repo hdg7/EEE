@@ -1,12 +1,14 @@
-#UPX
+# EEE
 
-This version works in CentOS 6.5 and Debian 9, we do not provide support to any different platform.
+This version works in CentOS 6.5, we do not provide support to any different platform.
 
-First install UCL from:
+In order to compile the modified UPX version, you need to perform the following steps:
+
+First, install UCL compressor from:
 
 http://www.oberhumer.com/opensource/ucl/download/
 
-This part of the project contains the code of the different versions of UPx packer.
+This part of the project contains the code of the different versions of UPX packer.
 
 To compile it you can just do it, but the stub is independent, to compile the stub you need the build tools.
 
@@ -30,3 +32,11 @@ apt-get install libc6
 apt-get install libc6.i386
 ```
 To reduce space I eliminated some compiled files from the stub, so you need to recompile it. 
+
+##Classifiers
+
+You need to set a classifier that EEE will attack. The classifier needs to read the piece of malware and extract its features. We provide a small implementation of structural entropy from Sorokin:
+
+Sorokin, I. (2011). Comparing files using structural entropy. Journal in computer virology, 7(4), 259.
+
+Once you have trained the classifier you need to create variants with EEE and inject them.
