@@ -33,7 +33,7 @@ apt-get install libc6.i386
 ```
 To reduce space I eliminated some compiled files from the stub, so you need to recompile it. 
 
-##Classifiers
+## Classifiers
 
 You need to set a classifier that EEE will attack. The classifier needs to read the piece of malware and extract its features. We provide a small implementation of structural entropy from Sorokin:
 
